@@ -38,5 +38,7 @@ The following are the steps taken in run_analysis.R to perform the transformatio
 6. All measurements which are not representations of a standard deviation or a mean are removed from the dataset
 7. The dataset is reshaped to be grouped by subject identifier (subjectCode) and activity description (activityDesc) and the mean of each measurement across these groupings are returned
 
+More detailed descriptions can be found in the inline comments of run_analysis.R
+
 ## Output format
 A description of the output format can be found in CodeBook.md
